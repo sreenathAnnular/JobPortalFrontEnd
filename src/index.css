@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-calendar .react-calendar__navigation__label {
+    @apply text-gray-800; /* Tailwind utility for color #212529 */
+  }
